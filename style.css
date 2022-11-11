@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    color: #565264;
+}
+
+.headbar{
+    margin: 2rem;
+    text-align: center;
+}
+
+.chat-body{
+    background-color: #ffffff;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    border: 1rem;
+}
+
+
+.chat{
+    background-color: #F5F6F4;
+    height: 70vh;
+    width: 60vw;   
+    border: 1rem solid #5F7470;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+    overflow-y: hidden;
+    border-radius: 2rem;
+}
+
+.chat-scroll{
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    padding-top: 3rem;
+}
+
+.chat-sent-messages{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.chat-write-right-message{
+    background-color: #889696;
+    padding: 1rem;
+    border: 1rem;
+    border-radius: 1rem;
+    margin: 0rem 1rem 1rem 1rem;
+    color: white;
+}
+
+.chat-write-left-message{
+    width: auto;
+    background-color: #565264;
+    padding: 1rem;
+    border: 1rem;
+    border-radius: 1rem;
+    margin: 0rem 46vw 1rem 1rem;
+}
+
+.chat-write-left-message p{
+    line-height: 150%;
+    color: white;
+}
+
+
+
+.chat-write{
+    background-color: rgb(255, 255, 255);
+    height: 2.5rem;
+    width: 60vw;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chat-write h1{
+    padding: 0 0rem 0 1rem;
+}
+
+.chat-write-send-button a{
+    padding-right: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.chat-write-send-button:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.input-chat{
+    padding-left: 1rem;
+    border: 0rem solid #ffffff;
+    outline: none;
+}
+
+.input-chat[placeholder]{
+    font-size: 1rem;
+}
+
+.javascript{
+    color: black;
+    font-size: 1rem;
+    text-align: start;
+}
+
+::-webkit-scrollbar{
+  display: block;
+  width: 1em;
+  height: 2rem;
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #565264;
+  }
+
